@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import AppLayout from "../components/ui/AppLayout";
 
 export const meta: MetaFunction = () => {
   return [
@@ -8,5 +9,9 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  return <h1 className="text-2xl font-bold underline">Smart Notes</h1>;
+  return (
+    <AppLayout>
+      <h1>Welcome to Remix!</h1>
+    </AppLayout>
+  );
 }
