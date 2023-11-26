@@ -1,38 +1,13 @@
-# Welcome to Remix!
+# Welcome!
 
-- [Remix Docs](https://remix.run/docs)
+## title: Application Development Guide
 
 ## Development
 
-From your terminal:
+1. **Getting Started**: Open your terminal and navigate to your project directory.
 
-```sh
-npm run dev
-```
+2. **Initiate Development Mode**: Execute the following command to start your application in development mode. This will automatically rebuild assets whenever there are file changes.
 
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+   ```bash
+   npm run dev
+   ```
